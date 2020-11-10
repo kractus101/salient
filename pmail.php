@@ -25,7 +25,7 @@ try {
 	
 	$mail->isHTML(true);								 
 	$mail->Subject = 'Subject'; 
-	$mail->Body = 'Hey there <b>bitch</b> '; 
+	$mail->Body = 'Hey there <b>buddy</b> '; 
 	$mail->AltBody = 'Body in plain text for non-HTML mail clients'; 
 	$mail->send(); 
 	echo "Mail has been sent successfully!"; 
